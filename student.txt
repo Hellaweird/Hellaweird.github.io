@@ -1,0 +1,5 @@
+Student name: Daan Koster
+Student number: 701126
+Student class: Inf1C
+URL student GitHub website: https://Hellaweird.github.io/
+URL student GitHub repository: https://github.com/Hellaweird/Hellaweird.github.io

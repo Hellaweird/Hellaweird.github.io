@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebMarkup - Contact</title>
+    <meta name="author" content="Daan Koster">
+    <meta name = "keywords" content="web-markup,exam,final-assignment,sport,inholland,training"/>
+    <meta name = "description" content="This is a site about webmarkup, and sports." />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" type="image/svg" sizes="32x32" href="assets/svg/web-markup-logo.svg">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+<section class="main-content">
+    <section class="top-nav">
+        <header class="header">
+            <img src="assets/svg/web-markup-logo.svg"
+                 alt="Logo Image"
+                 class="logo"
+            >
+            <section class="header-text">
+                <h1>WebMarkup - <em>Sport</em></h1>
+                <h2>Sport orientated website.</h2>
+            </section>
+        </header>
+        <input id="hamburger-toggler" type="checkbox" />
+        <label class='hamburger-button-container' for="hamburger-toggler">
+            <a class='hamburger-button' >
+            </a>
+        </label>
+        <ul class="hamburger">
+            <li>
+                <a href="product.html" class="hamburger-item">Product</a>
+            </li>
+            <li>
+                <a href="pricing.html" class="hamburger-item">Pricing</a>
+            </li>
+            <li>
+                <a href="index.html" class="hamburger-item">Home</a>
+            </li>
+
+        </ul>
+    </section>
+
+    <section class="contact-information width-100 margin-top-10">
+        <strong>
+            <h1>Contact information</h1>
+        </strong>
+
+        <article class="article-text">
+            <p>
+                <strong>Email Adress:</strong>
+                <em>mail@thisisnotarealaddress.nl</em>
+            </p>
+        </article>
+        <article class="article-text">
+            <p>
+                <strong>Phone Number:</strong>
+                <em>06 00001234</em>
+            </p>
+        </article>
+
+    </section>
+
+    <section class="flex-centered-row margin-top-20">
+        <section class="contact-form tablet width-80">
+            <section class="contact-form-header">
+                <h2>Contact us</h2>
+                <h4>Fill in the form below to contact us.</h4>
+            </section>
+
+            <form action="contact.php" method="post">
+                <fieldset>
+                    <legend>Name</legend>
+                    <label for="name">Enter your name:</label>
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Email</legend>
+                    <label for="email">Enter email address</label>
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Message</legend>
+                    <label for="message">Enter your message</label>
+                    <textarea name="message" id="message" placeholder="Your message" required></textarea>
+                </fieldset>
+                <input type="submit" value="Send" class="margin-top-10 button">
+            </form>
+        </section>
+
+        <aside class="desktop tablet width-50">
+            <section class="flex-centered-column">
+                <h1 class="product-header">
+                    Sport Products
+                </h1>
+                <figure class="image">
+                    <img src="assets/img/timelines.jpg" alt="Sport image">
+                    <figcaption>
+                        Image copyright: <a href="https://www.inholland.nl">https://inholland.nl/</a>
+                    </figcaption>
+                </figure>
+                <figure class="image">
+                    <img src="assets/img/goal.jpg" alt="Sport image">
+                    <figcaption>
+                        Image copyright: <a href="https://www.inholland.nl">https://inholland.nl/</a>
+                    </figcaption>
+                </figure>
+                <figure class="image">
+                    <img src="assets/img/rqs.png" alt="Sport image">
+                    <figcaption>
+                        Image copyright: <a href="https://www.inholland.nl">https://inholland.nl/</a>
+                    </figcaption>
+                </figure>
+            </section>
+        </aside>
+
+    </section>
+
+    <aside class="mobile width-100 margin-top-10">
+        <section class="flex-centered-column">
+            <h1 class="product-header">
+                Sport Products
+            </h1>
+            <figure class="image">
+                <img src="assets/img/timelines.jpg" alt="Sport image" title="Photo Finish">
+                <figcaption>
+                    Image copyright: <a href="https://www.inholland.nl">https://inholland.nl/</a>
+                </figcaption>
+            </figure>
+            <figure class="image">
+                <img src="assets/img/goal.jpg" alt="Sport image" title="Goal Detection">
+                <figcaption>
+                    Image copyright: <a href="https://www.inholland.nl">https://inholland.nl/</a>
+                </figcaption>
+            </figure>
+            <figure class="image">
+                <img src="assets/img/rqs.png" alt="Sport image" title="RQS Esports">
+                <figcaption>
+                    Image copyright: <a href="https://www.inholland.nl">https://inholland.nl/</a>
+                </figcaption>
+            </figure>
+        </section>
+    </aside>
+
+</section>
+
+<footer class="footer">
+    <section class="student">
+        <p>
+            &copy; Daan Koster 2022
+        </p>
+    </section>
+</footer>
+
+<section class="cookie-statement">
+    <p>
+        Cookie statement
+    </p>
+</section>
+
+
+
+
+
+
+
+
+</body>
+</html>
